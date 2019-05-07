@@ -1,0 +1,25 @@
+{
+  "name": "Modulo1",
+  "version": "1.0.0",
+  "description": "Primeiro modulo do ReactJS - Bootcamp",
+  "main": "index.js",
+  "author": "Diego Hennrich",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "webpack-dev-server --mode development"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
